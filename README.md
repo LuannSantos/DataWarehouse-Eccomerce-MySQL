@@ -45,5 +45,7 @@ Com o MySQL instalado, é possível criar o datawarehouse. Para isso basta segui
 Para garantir o carregamento dos dados, foi necessário alterar a linha 82209 do arquivo olist_order_reviews_dataset.csv. A alteração foi retirar os caracteres /". Além disso, foi necessário, acrescentar 3 linhas de dados ao arquivo product_category_name_translation.csv:
 
 seguros_e_servicos,security_and_services
+
 pc_gamer,pc_gamer
+
 portateis_cozinha_e_preparadores_de_alimentos,portables_kitchen_and_food_preparers
