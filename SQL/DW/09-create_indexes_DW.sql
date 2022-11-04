@@ -1,0 +1,32 @@
+use ecommerce_db_dw;
+
+-- DIM_CUSTOMERS
+create UNIQUE index idx_DIM_CUSTOMERS
+USING BTREE
+on DIM_CUSTOMERS (customer_id)
+VISIBLE;
+
+-- DIM_PRODUCTS
+create index idx_DIM_PRODUCTS
+USING BTREE
+on DIM_PRODUCTS (product_id)
+VISIBLE;
+
+-- DIM_SELLERS
+create index idx_DIM_SELLERS
+USING BTREE
+on DIM_SELLERS (seller_id)
+VISIBLE;
+
+-- DIM_ORDERS
+create UNIQUE index idx_DIM_ORDERS
+USING BTREE
+on DIM_ORDERS (order_id)
+VISIBLE;
+
+-- DIM_TIME
+create UNIQUE index idx_DIM_TIME
+USING BTREE
+on DIM_TIME (FULL_DATE)
+VISIBLE;
+
