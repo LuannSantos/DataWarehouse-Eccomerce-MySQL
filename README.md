@@ -4,7 +4,7 @@ Criação de um datawarehouse a partir de dados extraídos de um e-ccomerce. Os 
 
 Esses dados são salvos no MySQL que foi dividido em 3 databases: OLTP, STAGE, DW.
 
-**Tecnologias Usadas**: MySQL, Docker
+**Tecnologias Usadas**: MySQL, Docker, Power BI
 
 ## Preparação e Execução do Projeto
 
@@ -49,3 +49,9 @@ seguros_e_servicos,security_and_services
 pc_gamer,pc_gamer
 
 portateis_cozinha_e_preparadores_de_alimentos,portables_kitchen_and_food_preparers
+
+### Exemplo de Dashboard Simples
+
+Com o datawarehouse criado, é possível realizar análises. O dashboard abaixo mostra uma maneira simples de exibir os dados.
+
+<iframe title="Eccomerce" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNGE1MWVhODYtNWIyNy00NDY4LWIzZTUtZWU0YWNmZTcyZDE4IiwidCI6ImQwZWVhODVjLTExZWUtNDI0ZC04NzRjLWY2YTA3ZTY2MjVkMCJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>

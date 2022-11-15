@@ -70,7 +70,7 @@ alter table FACT_ITEMS add constraint FK_PRODUCT_ITEM
 foreign key(product_id) REFERENCES DIM_PRODUCTS(IDSK);
 
 alter table FACT_ITEMS add constraint FK_SELLER_ITEM
-foreign key(seller_id) REFERENCES DIM_CUSTOMERS(IDSK);
+foreign key(seller_id) REFERENCES DIM_SELLERS(IDSK);
 
 -- FACT_ITEMS TIME KEYS
 

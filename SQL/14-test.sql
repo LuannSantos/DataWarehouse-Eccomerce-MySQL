@@ -1,5 +1,6 @@
 use ecommerce_db;
 
+-- Script para testar o datawarehouse
 
 -- tb_customers
 insert into tb_customers (customer_id, customer_unique_id, customer_city, customer_state, customer_zip_code_prefix)

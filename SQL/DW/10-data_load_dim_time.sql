@@ -43,6 +43,8 @@ begin
 		SET @date = ADDDATE(@date,INTERVAL 1 HOUR);
 	END WHILE;
 
+	call printf('DIM_TIME carregada');
+
 end
 
 //
