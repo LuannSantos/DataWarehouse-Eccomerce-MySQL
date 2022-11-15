@@ -52,6 +52,6 @@ portateis_cozinha_e_preparadores_de_alimentos,portables_kitchen_and_food_prepare
 
 ### Exemplo de Dashboard Simples
 
-Com o datawarehouse criado, é possível realizar análises. O dashboard abaixo mostra uma maneira simples de exibir os dados.
+Com o datawarehouse criado, é possível realizar análises. O dashboard, que pode ser acessado pelo link abaixo, mostra uma maneira simples de exibir os dados.
 
-<iframe title="Eccomerce" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNGE1MWVhODYtNWIyNy00NDY4LWIzZTUtZWU0YWNmZTcyZDE4IiwidCI6ImQwZWVhODVjLTExZWUtNDI0ZC04NzRjLWY2YTA3ZTY2MjVkMCJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+https://app.powerbi.com/view?r=eyJrIjoiNGE1MWVhODYtNWIyNy00NDY4LWIzZTUtZWU0YWNmZTcyZDE4IiwidCI6ImQwZWVhODVjLTExZWUtNDI0ZC04NzRjLWY2YTA3ZTY2MjVkMCJ9&pageName=ReportSection
