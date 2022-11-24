@@ -8,8 +8,7 @@ GRANT ALL PRIVILEGES ON ecommerce_db.* TO 'ecommecer'@'IP_CLIENT' WITH GRANT OPT
 
 GRANT alter, alter routine, create routine, create, create temporary tables, create view, delete,
 drop, event, execute, file, index, insert, lock tables, select, show databases, show view, trigger,
-references
-update
+references, update
  ON *.* TO 'ecommecer'@'IP_CLIENT' WITH GRANT OPTION;
 
 -- Database STAGE
