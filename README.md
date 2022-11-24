@@ -58,7 +58,7 @@ https://app.powerbi.com/view?r=eyJrIjoiNGE1MWVhODYtNWIyNy00NDY4LWIzZTUtZWU0YWNmZ
 
 ### Extra: Transferir DW para Nuvem
 
-Os dados do DW construído no MySQL podem ser facilmente transferidos para algum ambiente na nuvem, de maneira simples, através do Airbyte.
+Os dados do DW construído no MySQL podem ser facilmente transferidos para algum ambiente na nuvem, através do Airbyte.
 
 Para isso, é necessário instalar o Airbyte, que pode ser feito facilmente, seguindo as instruções da documentação, através do seguinte link: https://docs.airbyte.com/quickstart/deploy-airbyte/?_gl=1*tbs8gi*_gcl_aw*R0NMLjE2NjI1[%E2%80%A6]vy1Jg9KFWpD289ItJx-G1t_wNseJkR918bNkOOX59yyqlMUaAiAmEALw_wcB&_ga=2.111747788.970858467.1669239778-623541937.1669239751.
 
@@ -81,11 +81,11 @@ A segunda é garantir que o banco de dados seja acessível publicamente. Para is
 
 Com o Redshift configurado, é necessário configurar o Airbyte. Isso é feito em 3 etapas: configuração da fonte, destino e conexão.
 
-Para configurar a fonte (MySQL), basta informar os dados de: IP da máquina onde está o MySQL (host), database, usuário e senha. O print abaixo podem ser util:
+Para configurar a fonte (MySQL), basta informar os dados de: IP da máquina onde está o MySQL (host), database, usuário e senha. O print abaixo pode ser util:
 
 <img src="./imgs/Airbyte_Source.PNG">
 
-Para configurar o destino, basta informar os alguns dados. Para configurar o host, entre novamente no link do workgroup, e em "Namespaces/Groups" procure, copie e cole a informação do Endpoint (mantenha o texto apenas até o .com). Além disso, informe os dados de database, usuário (usuário adiministrador) e senha. Os prints abaixo podem ser utéis:
+Para configurar o destino, basta informar alguns dados. Para configurar o host, entre novamente no link do workgroup, e em "Namespaces/Groups" procure, copie e cole a informação do Endpoint (mantenha o texto apenas até o .com). Além disso, informe os dados de database, usuário (usuário adiministrador) e senha. Os prints abaixo podem ser utéis:
 
 <img src="./imgs/Endpoint.PNG">
 
