@@ -64,7 +64,7 @@ begin
 	select p.product_id, p.product_category_name, p.product_name_lenght,p.product_description_lenght,
 		p.product_photos_qty,p.product_weight_g,p.product_length_cm,p.product_height_cm,p.product_width_cm, now()
 	from ecommerce_db_stage.ST_PRODUCTS p
-	inner join DIM_PRODUCTS pd on pd.product_id = p.product_id
+	inner join DIM_PRODUCTS pd on pd.product_id = p.product_id and pd.FIM is null
 	where 
 	pd.product_category_name <> p.product_category_name
 	or pd.product_name_lenght <> p.product_name_lenght
@@ -105,7 +105,7 @@ begin
 	insert into DIM_SELLERS (seller_id, seller_city, seller_state, seller_zip_code_prefix, geolocation_lat, geolocation_lng, INICIO)
 	select s.seller_id, s.seller_city, s.seller_state, s.seller_zip_code_prefix, s.geolocation_lat, s.geolocation_lng, now()
 	from ecommerce_db_stage.ST_SELLERS s
-	inner join DIM_SELLERS sd on s.seller_id = sd.seller_id
+	inner join DIM_SELLERS sd on s.seller_id = sd.seller_id and sd.FIM is null
 	where 
 	s.seller_city <> sd.seller_city
 	or s.seller_state <> sd.seller_state
